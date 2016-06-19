@@ -1,0 +1,132 @@
+.navbar-brand{
+			font-size: 1.8em;
+		}
+		.navbar{
+			background-color: black;
+		}
+		.ww{
+			font-weight: bolder;
+		}
+		
+		.firstTab{
+			
+			background-size: cover;
+			width:auto;
+			margin-top: 0px; 
+			margin-bottom:  20px;
+			padding-bottom: 45px;
+			
+		}
+		#pFstTab{
+			position: inherit;
+			font-size: 2em;
+			font-family: monospace;
+			
+		}
+		.topTab{
+			margin-top: 100px;
+			text-align: center;
+			justify-content: space-around;
+		}
+		#topH{
+			font-size:1.9em;
+			font-stretch: extra-condensed;
+			color:cornflowerblue;
+			font-family: cursive;
+		}
+		.imgTopTab{
+			height: 370px;
+			width: auto;
+		}
+		.imgDiv{
+			margin-top: 180px;
+			margin-bottom: 20px
+		}
+		h2{
+			font-family: fantasy;
+			color: deepskyblue;
+		}
+		.modalDiv{
+			margin: 5px 0 0 75px;
+		}
+		.modalBd{
+			background-color: aquamarine;
+			
+		}
+		.modalCnt{
+			margin-top: 100px;
+		}
+		.modalBlack{
+			background-color: black;
+		}
+		.ORDList{
+			font-weight: bold;
+			font-family: cursive;
+		}
+		.scndTab{
+			height: ;
+			width: auto;
+			background-color:cadetblue;
+			margin-top: -30px;
+			
+		}
+		#h1ScTb{
+			text-align: center;
+			font-size: 3em;
+			color: black;
+			font-weight: bolder;
+			padding-top: 0px;
+			padding-right: auto;
+			margin-top: 50px;
+			margin-bottom: 2px;
+		}
+		.carouselDiv{
+			width: auto;
+			height: auto;
+			padding: 0;
+			margin: 1px auto 5px 160px;
+		}
+		.carouselText{
+			color: black;
+			font-weight: bold;
+			font-family: cursive;
+		}
+		#imgST{
+			padding-left: auto;
+		}
+		.thrdTab{
+			height: auto;
+			width: auto;
+			background-color:brown;
+			margin-top: -19px;
+		}
+		.contactContent{
+			margin: 60px 0 30px 0;
+			position: inherit;
+			padding: 0 ;
+		}
+		#frmP{
+			padding:5px 0px 0 0px;
+			margin-top: 0px;
+			font-size: 2em;
+			font-weight: bold;
+			font-family: fantasy;
+			justify-content: center;
+		}
+		#formDiv{
+			margin: 0 50px 0 70px;
+		}
+		
+		#footer{
+		height: 50px;	
+		}
+		#ImgPNG{
+		    
+			
+		}
+        #pfooter{
+	       color: bisque;
+			font-family: monospace;
+			font-weight: bolder;
+        }
+		
