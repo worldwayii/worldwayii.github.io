@@ -1,4 +1,4 @@
-.navbar-brand{
+        .navbar-brand{
 			font-size: 1.8em;
 		}
 		.navbar{
@@ -114,14 +114,15 @@
 			justify-content: center;
 		}
 		#formDiv{
-			margin: 0 50px 0 70px;
+			margin: 0 5px 0 70px;
 		}
 		
-		#footer{
-		height: 50px;	
+		.footer{
+		height: 0px;	
 		}
 		#ImgPNG{
-		    
+		    margin: 0;
+			padding: 0;
 			
 		}
         #pfooter{
