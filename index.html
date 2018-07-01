@@ -1,271 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Wayii </title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/Pcustom.css">
-	<style>
-		.firstTab{
-			background-image: url("Images/6DE23FZS8W.jpg");
-		}
-	</style>
-
+  <meta charset="UTF-8">
+  <title>Currency Converter</title>
+<link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="css/style.css">
 </head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar" >
-	
-	
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    
-                </button>
-				<a class="navbar-brand page-scroll" href="#fsTab"><p class="ww">WW Dezigns</p></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#fsTab">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#scTab">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#thrdTab">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<body>
+<div class="container">
+  <div class="row">
+    <h1 style="color: #7e7821" align="center">Currency Converter By Worldwayii</h1>
+    
+  </div>
+  <form>
+    <div class="row">
+      <h4>From</h4>
+      <div class="">
+        <div class="input-group">
+            <select id="fromCurrency" >
+              <option value="">Select Currency From</option>
+                <option value="USD">US Dollar</option>
+                        <option value="EUR">Euro</option>
+                        <option value="ZAR">Rand</option>
+                        <option value="KES">Kenyan Shilling</option>
+                        <option value="AED">UAE Dirham</option>
+                        <option value="GBP">Pound Sterling</option>
+                        <option value="ARS">Argentine Peso</option>
+                        <option value="AUD">Australian Dollar</option>
+                        <option value="BRL">Brazilian Real</option>
+                        <option value="CAD">Canadian Dollar</option>
+                        <option value="CNY">Yuan Renminbi</option>
+                        <option value="MXN">Mexican Peso</option>
+                        <option value="NGN">Naira</option>
+                        <option value="NZD">New Zealand Dollar</option>
+                        <option value="DKK">Danish Krone</option>
+                        <option value="EGP">Egyptian Pound</option>
+                        <option value="ETB">Ethiopian Birr</option>
+                        <option value="FJD">Fiji Dollar</option>
+                        <option value="PHP">Philippine Peso</option>
+                        <option value="HKD">Hong Kong Dollar</option>
+                        <option value="QAR">Qatari Rial</option>
+                        <option value="ISK">Iceland Krona</option>
+                        <option value="INR">Indian Rupee</option>
+                        <option value="RUB">Russian Ruble</option>
+                        <option value="XCD">East Caribbean Dollar</option>
+                        <option value="SAR">Saudi Riyal</option>
+                        <option value="JPY">Yen</option>
+                        <option value="SGD">Singapore Dollar</option>
+                        <option value="SEK">Swedish Krona</option>
+                        <option value="TZS">Tanzanian Shilling</option>
+                        <option value="TRY">Turkish Lira</option>
+                        <option value="UGX">Uganda Shilling</option>
+                        <option value="ZWL">Zimbabwe Dollar</option>
+                        <option value="CHF">Swiss Franc</option>
+          </select>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-	
-		<div class="container-fluid firstTab" id="fsTab">
-			<div class="row">
-			    <div class="col-md-9 col-xs-12  topTab">
-					<H1 id="topH">Hi evryone, my name is Chuckxie and I'm an aspiring UX/UI designveloper...
-					I have an eye for Innovation and great at detailings. Go to my portfolio and check me out.I have an alias name: Worldwayii, I have an extensive practical experience in brand strategy, creative direction and project management; devoted to robust researches and extensive learning in technology. Also a huge fan of semantics and futuristic interfaces.	I deliver contemporary designs to stand the demand and in a cost and time effective mananer.<br/> </H1>
-					<H1 id="topH">I am a graduate of Information Management Technology from the Federal University of Technology, Owerri. In my early stages I was keen of becoming an Electrical Electronics Engineer owing from the love I had for electronics, quickly assembling elctronics gadgets that was newly bought in my house. I was exposed to using a PC when we bought a house PC and I started craving to take up a Tech career. I am currently an School of Computational Intelligence (SCI) student, where I have been exposed a lot of programming knowledge <br/> </H1> 
-					<H2>Web Developer - Application Developer - User Experience Designer</H2>
-				</div>
-			    <div class="col-xs-12 col-md-3 imgDiv">
-					   <img src="Images/seam1.jpg"  class="imgTopTab img-responsive img-rounded">
-					
-			<div class="modalDiv">
-  
-              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> A brief CV</button>
+      </div>
+      <div class="">
+        <div class="input-group input-group-icon">
+            <input type="text" placeholder="Amount" id="amount"/>
+          <div class="input-icon"><i class="fa fa-dollar"></i></div>
+        </div>
+      </div>
 
-  
-				  <div class="modal fade" id="myModal" role="dialog">
-					<div class="modal-dialog">
+    </div>
+    <div class="row">
+        <h4>To</h4>
+      <div class="">
+        <div class="input-group">
+            <select id="toCurrency">
+              <option value="">Select Currency To</option>
+                <option value="USD">US Dollar</option>
+                        <option value="EUR">Euro</option>
+                        <option value="ZAR">Rand</option>
+                        <option value="KES">Kenyan Shilling</option>
+                        <option value="AED">UAE Dirham</option>
+                        <option value="GBP">Pound Sterling</option>
+                        <option value="ARS">Argentine Peso</option>
+                        <option value="AUD">Australian Dollar</option>
+                        <option value="BRL">Brazilian Real</option>
+                        <option value="CAD">Canadian Dollar</option>
+                        <option value="CNY">Yuan Renminbi</option>
+                        <option value="MXN">Mexican Peso</option>
+                        <option value="NGN">Naira</option>
+                        <option value="NZD">New Zealand Dollar</option>
+                        <option value="DKK">Danish Krone</option>
+                        <option value="EGP">Egyptian Pound</option>
+                        <option value="ETB">Ethiopian Birr</option>
+                        <option value="FJD">Fiji Dollar</option>
+                        <option value="PHP">Philippine Peso</option>
+                        <option value="HKD">Hong Kong Dollar</option>
+                        <option value="QAR">Qatari Rial</option>
+                        <option value="ISK">Iceland Krona</option>
+                        <option value="INR">Indian Rupee</option>
+                        <option value="RUB">Russian Ruble</option>
+                        <option value="XCD">East Caribbean Dollar</option>
+                        <option value="SAR">Saudi Riyal</option>
+                        <option value="JPY">Yen</option>
+                        <option value="SGD">Singapore Dollar</option>
+                        <option value="SEK">Swedish Krona</option>
+                        <option value="TZS">Tanzanian Shilling</option>
+                        <option value="TRY">Turkish Lira</option>
+                        <option value="UGX">Uganda Shilling</option>
+                        <option value="ZWL">Zimbabwe Dollar</option>
+                        <option value="CHF">Swiss Franc</option>
+          </select>
+        </div>
+      </div>
+        <div class="">
+        <div class="input-group input-group-icon">
+            <input type="text" placeholder="" id="reslt" readonly/>
+          <div class="input-icon"><i class="fa fa-dollar"></i></div>
+        </div>
+      </div>
+    </div>
 
-					  <!-- Modal content-->
-					  <div class="modal-content modalCnt">
-						<div class="modal-header modalBlack">
-						  <button type="button" class="close" data-dismiss="modal">&times;</button>
-						  <h4 class="modal-title">Brief CV</h4>
-						</div>
-						<div class="modal-body modalBd">
-						   <ul class="ORDList">
-							  <li> State of origin - Anambra</li>
-							   <li> Town/LGA - Awgbu/Orumba North </li>
-							   <li>Graduate of FUTO, with B.Tech in information management technology </li>
-							   <li>NYSC at Cross River Basin Development Authority, Calabar(2015)</li>
-							   <li>Internship at Seamfix, Lagos State, Nigeria Limited : 2012 (6 Months)</li>
-							   <li>EXTRACURRICULAR ACTIVITIES :Reading, soccer, tennis, music lover</li>
-						   </ul>
-						</div>
-						<div class="modal-footer modalBlack">
-						  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						</div>
-					  </div>
+    <div class="row">
+      <div class="input-group">
+          <input type="button" id="process" value="Convert" onclick="currencyConvert()"/>
+      </div>
+    </div>
+  </form>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-					</div>
-				  </div>
-
-              </div>
-					
-			    </div>
-			
-			</div>
-
-		</div> <br/>
-	
-	  <div class="container-fluid scndTab" id="scTab">
-	          <div class="row">
-				  <div class="col-md-12">
-				      <h1 id="h1ScTb">PORTFOLIO</h1> 
-					  </div>
-					  
-				<div class="col-md-12 carouselDiv">
-					  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-					      <ol class="carousel-indicators">
-						      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-							  <li data-target="#myCarousel" data-slide-to="1"></li>
-							  <li data-target="#myCarousel" data-slide-to="2"></li>
-							  <li data-target="#myCarousel" data-slide-to="3"></li>
-						  </ol>
-						  
-						  <div class="carousel-inner" role="listbox">
-						      <div class="item active">
-							     <img src="Images/2016-06-04%20(4).png" alt="Database Design" width="1000" height="800">
-								  <div class="carousel-caption">
-								    <h3 class="carouselText">Database</h3>
-									  <p class="carouselText">The sophiscated data model I can offer with cost effectiveness</p>
-								  </div>
-							  </div>
-							  
-							  <div class="item">
-							     <img src="Images/2016-06-07.png" alt="Desktop app" width="1000" height="800">
-								  <div class="carousel-caption">
-								    <h3 class="carouselText">Destop application</h3>
-									  <p class="carouselText">A fine blend of a desktop windows app for pizza order management</p>
-								  </div>
-							  </div>
-							  
-							  <div class="item">
-							     <img src="Images/2016-06-08%20(2).png" alt="App in C-sharp" width="1000" height="800">
-								  <div class="carousel-caption">
-								    <h3 class="carouselText">C-Sharp Aplicatoion</h3>
-									  <p class="carouselText">A database driven GUI application</p>
-								  </div>
-							  </div>
-							  
-							  <div class="item">
-							     <img src="Images/2016-03-24.png" alt="CSS and HTML" width="1000" height="800">
-								  <div class="carousel-caption">
-								    <h3 class="carouselText">Html and CSS Design</h3>
-									  <p class="carouselText">A replica of bbc site with CSS and HTML only</p>
-								  </div>
-							  </div>
-							  
-								  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-								  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-								  <span class="sr-only">Previous</span>
-								  </a>
-								  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-								  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-								  <span class="sr-only">Next</span>
-								  </a>
-							  
-						  </div>
-					  </div>
-		  </div>
-				  
-		      </div>
-	  </div> <br/>
-	
-	 <div class="container-fluid thrdTab" id="thrdTab">
-	     <div class="row">
-		     <div class=" col-md-9 col-md-offset-3">
-			    <div class="contactContent">
-				     <img src="Images/Capture3.PNG">
-					 <img src="Images/Capture2.PNG">
-					  <img src="Images/Capture3.PNG" > <br/>
-				</div>
-				 
-				 </div> <br/>
-			 <div class="col-md-12 ">
-			     <P id="frmP">Wana contact me? be it for a project, hang-out, fun trips, for my CV, any kind of info, why not drop your details and messages?</P>
-			 </div>
-			 
-			 <div class="col-md-9 col-md-offset-3" id="formDiv">
-			      <form class="form-horizontal" role="form">
-					  <div class="form-group">
-					      <label class="control-label col-sm-2" for="Name">Name:</label>
-							  <div class="col-sm-10">
-								<input type="text" class="form-control" id="name"  placeholder="Enter Name">
-							  </div>
-							</div>
-				      <div class="form-group">
-					      <label class="control-label col-sm-2" for="email">Email:</label>
-							  <div class="col-sm-10">
-								<input type="email" class="form-control" id="email" placeholder="Enter email">
-							  </div>
-							</div>
-							<div class="form-group">
-							  <label class="control-label col-sm-2" for="PhoneNumber">Phone Number:</label>
-							  <div class="col-sm-10">
-								<input type="text" class="form-control" id="PNumber" placeholder="Enter Phone Number">
-							  </div>
-							</div>
-							<div class="form-group">
-								  <label class="control-label col-sm-2" for="comment">Message:</label>
-								  <div class="col-sm-10" id="message">
-								  <textarea class="form-control" rows="10" id="message"></textarea>
-								  </div>
-							</div>
-							<div class="form-group">
-							  <div class="col-sm-offset-2 col-sm-10">
-								<button type="submit" class="btn btn-success SubmitButton">Submit</button>
-							  </div>
-							</div>
-						  </form>
-						</div>
-
-
-					  </div>
-				  </form> 
-			 </div>
-				<div class="navbar navbar-inverse footer">
-				  <div class="container-fluid">
-					<div class="row">
-						 <div class="col-md-6 navbar-right" id="ImgPNG">
-							  <P id="pfooter">Copyright &#64; Worldwayii 2016</P>
-						</div>
-						
-						<div class="col-md-6">
-							<a href =" https://www.facebook.com/Wayii" target="_blank"><img src="Images/Facebook.png" width="50" height="50"></a>
-							 <a href ="https://github.com/worldwayii" target="_blank"><img src="Images/github.png" width="50" height="50"></a>
-							 <a href ="https://ng.linkedin.com/in/elui-chukwuma-christian-24149a52 " target="_blank"><img src="Images/linkedIn.jpg" width="50" height="50"></a>
-							 <a href ="https://twitter.com/worldwayii" target="_blank"><img src="Images/twitter.png" width="50" height="50"></a>	
-						</div>
-						</div>
-					   </div>
-					</div>
-				
-			</div>
-					  
-	
-		 
-	 
-	
-	
-    <script src="jquery/jquery-1.12.2.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-	<script>
-		
-	//$(".firstTab").css("height",$(window).height());
-	
-	$(".SubmitButton").click(function(){
-		alert("Thank you for your interest");
-	});
-		
-	</script>
-
+    <script  src="js/index.js"></script>
+    <script  src="js/iDB.js"></script>
+    <script  src="js/currencyConvert.js"></script>
+    <script  src="js/sw.js"></script>
 </body>
 
 </html>
